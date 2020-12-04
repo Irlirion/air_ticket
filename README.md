@@ -1,9 +1,14 @@
 # Air ticket CLI
-## Usage
+## Install
+### Virtualenv
 1. ``$ git clone https://github.com/Irlirion/air_ticket.git``
-2. ``$ pip install .``
-3. For create ticket by cmd type ``$ ticket``
-4. For create ticket by json ``$ read_ticket INPUT_JSON OUTPUT_JSON``
+2. ``$ cd air_ticket``
+3. ``$ sudo apt install python3-virtualenv``
+4. ``$ virtualenv venv``
+5. ``$ . venv/bin/activate``
+6. ``$ pip install .``
+7. For create ticket by cmd type ``$ ticket``
+8. For create ticket by json ``$ read_ticket INPUT_JSON OUTPUT_JSON``
 ## Example
 ````
 $ ticket
