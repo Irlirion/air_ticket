@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/home/irlirion/PycharmProjects/FaceAuth/air_ticket/ticket</OriginalElement>
+  <nodes>
+    <node x="0.0" y="459.0">ticket.decorators.Baggage.Baggage</node>
+    <node x="464.75" y="733.0">ticket.decorators.class_type.BusinessClass</node>
+    <node x="125.75" y="733.0">ticket.decorators.class_type.EconomyClass</node>
+    <node x="1313.75" y="507.0">ticket.decorators.Transfer.Transfer</node>
+    <node x="1369.75" y="233.0">ticket.Ticket.Ticket</node>
+    <node x="1320.75" y="733.0">ticket.decorators.food.Combo3</node>
+    <node x="1065.75" y="733.0">ticket.decorators.food.Combo2</node>
+    <node x="1295.25" y="79.0">ticket.ABCTicket.ABCTicket</node>
+    <node x="1072.75" y="519.0">ticket.decorators.food.Food</node>
+    <node x="1016.75" y="269.0">ticket.decorators.ABCDecorator.ABCDecorator</node>
+    <node x="810.75" y="733.0">ticket.decorators.food.Combo1</node>
+    <node x="1610.75" y="495.0">ticket.decorators.Age.Age</node>
+    <node x="1210.625" y="0.0">abc.ABC</node>
+    <node x="311.0" y="519.0">ticket.decorators.class_type.ABCClass</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ticket.ABCTicket.ABCTicket" target="abc.ABC">
+      <point x="0.0" y="-52.0" />
+      <point x="1402.25" y="54.0" />
+      <point x="1271.375" y="54.0" />
+      <point x="20.25" y="14.5" />
+    </edge>
+    <edge source="ticket.decorators.food.Food" target="ticket.decorators.ABCDecorator.ABCDecorator">
+      <point x="0.0" y="-52.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="ticket.decorators.class_type.ABCClass" target="ticket.decorators.ABCDecorator.ABCDecorator">
+      <point x="0.0" y="-52.0" />
+      <point x="456.5" y="439.0" />
+      <point x="1116.65" y="439.0" />
+      <point x="-66.60000000000002" y="52.0" />
+    </edge>
+    <edge source="ticket.decorators.Transfer.Transfer" target="ticket.decorators.ABCDecorator.ABCDecorator">
+      <point x="0.0" y="-64.0" />
+      <point x="1452.25" y="439.0" />
+      <point x="1249.8500000000001" y="439.0" />
+      <point x="66.60000000000002" y="52.0" />
+    </edge>
+    <edge source="ticket.decorators.class_type.BusinessClass" target="ticket.decorators.class_type.ABCClass">
+      <point x="0.0" y="-39.5" />
+      <point x="627.75" y="708.0" />
+      <point x="529.25" y="708.0" />
+      <point x="72.75" y="52.0" />
+    </edge>
+    <edge source="ticket.decorators.Age.Age" target="ticket.decorators.ABCDecorator.ABCDecorator">
+      <point x="0.0" y="-76.0" />
+      <point x="1741.25" y="429.0" />
+      <point x="1316.45" y="429.0" />
+      <point x="133.20000000000005" y="52.0" />
+    </edge>
+    <edge source="ticket.decorators.ABCDecorator.ABCDecorator" target="ticket.ABCTicket.ABCTicket">
+      <point x="83.25" y="-52.0" />
+      <point x="1266.5" y="208.0" />
+      <point x="1348.75" y="208.0" />
+      <point x="-53.5" y="52.0" />
+    </edge>
+    <edge source="ticket.decorators.food.Combo2" target="ticket.decorators.food.Food">
+      <point x="0.0" y="-39.5" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="ticket.Ticket.Ticket" target="ticket.ABCTicket.ABCTicket">
+      <point x="0.0" y="-88.0" />
+      <point x="53.5" y="52.0" />
+    </edge>
+    <edge source="ticket.decorators.food.Combo1" target="ticket.decorators.food.Food">
+      <point x="0.0" y="-39.5" />
+      <point x="928.25" y="708.0" />
+      <point x="1109.5833333333333" y="708.0" />
+      <point x="-73.66666666666674" y="52.0" />
+    </edge>
+    <edge source="ticket.decorators.food.Combo3" target="ticket.decorators.food.Food">
+      <point x="0.0" y="-39.5" />
+      <point x="1438.25" y="708.0" />
+      <point x="1256.9166666666667" y="708.0" />
+      <point x="73.66666666666674" y="52.0" />
+    </edge>
+    <edge source="ticket.decorators.ABCDecorator.ABCDecorator" target="abc.ABC">
+      <point x="-83.25" y="-52.0" />
+      <point x="1100.0" y="54.0" />
+      <point x="1230.875" y="54.0" />
+      <point x="-20.25" y="14.5" />
+    </edge>
+    <edge source="ticket.decorators.class_type.EconomyClass" target="ticket.decorators.class_type.ABCClass">
+      <point x="0.0" y="-39.5" />
+      <point x="285.25" y="708.0" />
+      <point x="383.75" y="708.0" />
+      <point x="-72.75" y="52.0" />
+    </edge>
+    <edge source="ticket.decorators.Baggage.Baggage" target="ticket.decorators.ABCDecorator.ABCDecorator">
+      <point x="0.0" y="-112.0" />
+      <point x="145.5" y="429.0" />
+      <point x="1050.05" y="429.0" />
+      <point x="-133.20000000000005" y="52.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6514423076923077" x="936.0" y="406.0" />
+  <SelectedNodes>
+    <node>ticket.decorators.food.Combo2</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+</Diagram>
+

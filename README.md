@@ -75,3 +75,5 @@ Options:
   -e, --echo BOOLEAN  Echo price and description to console
   --help              Show this message and exit.
 ````
+### UML ticket
+![UML diagram of ticket package](ticket.png)
