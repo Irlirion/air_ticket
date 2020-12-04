@@ -26,7 +26,7 @@ def get_ticket(time: int, cls_type: str, weight: int, age: int, food_type: str =
 @click.option('-e', '--echo', default=True, type=bool)
 @click.argument('file', type=click.File('r'))
 @click.argument('out', type=click.File('w'))
-def get_ticket_json(file: TextIOWrapper, out: TextIOWrapper, echo: bool):
+def get_ticket_json(file: TextIOWrapper, out: TextIOWrapper, echo: bool) -> None:
     ticket = create_ticket_json(file)
 
     if echo:
