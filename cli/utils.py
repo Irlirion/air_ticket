@@ -12,14 +12,12 @@ def create_ticket(time: int, cls_type: str, weight: int, age: int, food_type: st
     ticket = class_type.EconomyClass(ticket) if cls_type == 'economy' else class_type.BusinessClass(ticket)
     ticket = Baggage(ticket, weight)
     if food_type != 'nothing':
-        if food_type == 'combo1':
+        if food_type == '1':
             ticket = food.Combo1(ticket)
-        elif food_type == 'combo2':
+        elif food_type == '2':
             ticket = food.Combo2(ticket)
-        elif food_type == 'combo3':
+        elif food_type == '3':
             ticket = food.Combo3(ticket)
-        else:
-            raise ValueError(f"Food type {food_type} not found. Supporting types 'combo1', 'combo12,' combo3'")
     ticket = transfer and Transfer(ticket) or ticket
     ticket = Age(ticket, age)
 
