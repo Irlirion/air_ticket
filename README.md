@@ -3,9 +3,9 @@
 ### Virtualenv
 1. ``$ git clone https://github.com/Irlirion/air_ticket.git``
 2. ``$ cd air_ticket``
-3. ``$ sudo apt install python3-virtualenv``
+3. Linux: ``$ sudo apt install python3-virtualenv`` Windows: ``$ pip install virtualenv``
 4. ``$ virtualenv venv``
-5. ``$ . venv/bin/activate``
+5. Linux: ``$ source venv/bin/activate`` Windows:``$ venv\Scripts\activate.bat``
 6. ``$ pip install .``
 7. For create ticket by cmd type ``$ ticket``
 8. For create ticket by json ``$ read_ticket INPUT_JSON OUTPUT_JSON``
